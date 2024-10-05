@@ -4,6 +4,6 @@
 2.) run the following in WSL2.0 Ubuntu:
 ```
   sudo mv /etc/ssl/certs /etc/ssl/certs.orig
-  sudo ln -s /<path to Windows "all-certificates" folder> /etc/ssl/certs ## note: you can see your windows filesystem in WSL by navigating to /mnt/c. from there, find the all-certificates folder you created in Windows.
+  sudo ln -s '<Linux path to Windows "all-certificates" folder>' /etc/ssl/certs ## e.g. /mnt/c/Users/<your_username>/<...>/
   update-ca-certificates
 ```
