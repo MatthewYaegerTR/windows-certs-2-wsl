@@ -4,6 +4,6 @@
 2.) run the following in WSL2.0 Ubuntu:
 ```
   sudo mv /etc/ssl/certs /etc/ssl/certs.orig
-  sudo ln -s <WSL path to <...>/windows-certs-2-wsl/all-certificates> /etc/ssl/certs
+  sudo ln -s <WSL path to <...>/windows-certs-2-wsl/all-certificates/> /etc/ssl/certs
   update-ca-certificates
 ```
